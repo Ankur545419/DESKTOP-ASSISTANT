@@ -1,0 +1,27 @@
+{"intents":
+[
+    {"tag": "greeting",
+    "patterns": ["Hey", "Hello", "Alexa", "Jarvis", "Hello, good morning!"],
+    "responses": ["Hello sir!, What can i do for you?"]},
+    {"tag": "create_file",
+    "patterns": ["Please create a file", "new file", "create a file", "create a new file"],
+    "responses": [""]},
+    {"tag": "update_file",
+    "patterns": ["I want to update a file", "update a file", "update a file in my directory", "update file"],
+    "responses": [""]},
+    {"tag": "show_files",
+    "patterns": ["show my files", "what are my files", "what is on my files directory"],
+    "responses": [""]},    
+    {"tag": "delete_files",
+    "patterns": ["delete my files", "delete a file", "i want to delete a file"],
+    "responses": [""]},    
+    {"tag": "weather_report",
+    "patterns": ["what's the weather", "show weather report", "today's weather"],
+    "responses": [""]},    
+    {"tag": "news_report",
+    "patterns": ["today's news", "what's todays news", "show news"],
+    "responses": [""]},    
+    {"tag": "exit",
+    "patterns": ["bye", "stop", "quit", "i want to quit", "exit", "I want to exit"],
+    "responses": [""]}
+]}
